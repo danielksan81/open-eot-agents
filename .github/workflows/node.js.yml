@@ -34,7 +34,7 @@ jobs:
     
     - name: Run ganache
       working-directory: ./service-directory
-      run: start-ganache-aea.sh &
+      run: ./start-ganache-aea.sh &
     
     - name: Run truffle test
       working-directory: ./service-directory
